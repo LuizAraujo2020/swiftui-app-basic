@@ -14,3 +14,11 @@ Basic App to practice basics concepts and practices of SwiftUI Development
 - [x] How to create a haptic feedback feature
 - [x] How to show alerts with SwiftUI
 - [x] Finally, how to create stickers without writing any code
+
+UI & UX
+- [x] Complex Layouts
+- [x] Haptic Feedbacks
+- [x] Light and Dark Apperances
+- [x] Animations with SwiftUI
+- [x] iMessage Stiker Pack
+- [x] App Icons & Launch Screen
