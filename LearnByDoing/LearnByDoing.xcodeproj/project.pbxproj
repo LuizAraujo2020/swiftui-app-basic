@@ -55,9 +55,9 @@
 			children = (
 				6F9506512B0E24C3005FAB04 /* LearnByDoingApp.swift */,
 				6F9506532B0E24C3005FAB04 /* ContentView.swift */,
+				6F47FF352B0EDAC0001F68D0 /* CardView.swift */,
 				6F9506552B0E24C5005FAB04 /* Assets.xcassets */,
 				6F9506572B0E24C5005FAB04 /* Preview Content */,
-				6F47FF352B0EDAC0001F68D0 /* CardView.swift */,
 			);
 			path = LearnByDoing;
 			sourceTree = "<group>";
