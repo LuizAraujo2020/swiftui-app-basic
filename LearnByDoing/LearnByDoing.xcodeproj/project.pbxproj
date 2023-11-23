@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F47FF362B0EDAC0001F68D0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F47FF352B0EDAC0001F68D0 /* CardView.swift */; };
+		6F47FF382B0EE262001F68D0 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F47FF372B0EE262001F68D0 /* CardModel.swift */; };
 		6F9506522B0E24C3005FAB04 /* LearnByDoingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9506512B0E24C3005FAB04 /* LearnByDoingApp.swift */; };
 		6F9506542B0E24C3005FAB04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9506532B0E24C3005FAB04 /* ContentView.swift */; };
 		6F9506562B0E24C5005FAB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9506552B0E24C5005FAB04 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		6F47FF352B0EDAC0001F68D0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6F47FF372B0EE262001F68D0 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		6F95064E2B0E24C3005FAB04 /* LearnByDoing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnByDoing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9506512B0E24C3005FAB04 /* LearnByDoingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnByDoingApp.swift; sourceTree = "<group>"; };
 		6F9506532B0E24C3005FAB04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				6F9506512B0E24C3005FAB04 /* LearnByDoingApp.swift */,
 				6F9506532B0E24C3005FAB04 /* ContentView.swift */,
 				6F47FF352B0EDAC0001F68D0 /* CardView.swift */,
+				6F47FF372B0EE262001F68D0 /* CardModel.swift */,
 				6F9506552B0E24C5005FAB04 /* Assets.xcassets */,
 				6F9506572B0E24C5005FAB04 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F9506542B0E24C3005FAB04 /* ContentView.swift in Sources */,
+				6F47FF382B0EE262001F68D0 /* CardModel.swift in Sources */,
 				6F47FF362B0EDAC0001F68D0 /* CardView.swift in Sources */,
 				6F9506522B0E24C3005FAB04 /* LearnByDoingApp.swift in Sources */,
 			);
