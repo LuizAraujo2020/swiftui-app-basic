@@ -14,6 +14,8 @@ struct CardView: View {
 
     var card: Card
 
+    private let hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
+
     var body: some View {
         ZStack {
             Image(card.imageName)
@@ -34,6 +36,7 @@ struct CardView: View {
                 Button {
 
                     playSound(sound: "sound-chime", type: "mp3")
+                    self.hapticImpact.impactOccurred()
                 } label: {
                     HStack {
                         Text(card.callToAction.uppercased())
