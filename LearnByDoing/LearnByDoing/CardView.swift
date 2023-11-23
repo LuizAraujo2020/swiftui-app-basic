@@ -11,6 +11,7 @@ struct CardView: View {
     @State private var fadeIn = false
     @State private var moveDownard = false
     @State private var moveUpward = false
+    @State private var showAlert = false
 
     var card: Card
 
@@ -37,6 +38,7 @@ struct CardView: View {
 
                     playSound(sound: "sound-chime", type: "mp3")
                     self.hapticImpact.impactOccurred()
+                    self.showAlert.toggle()
                 } label: {
                     HStack {
                         Text(card.callToAction.uppercased())
@@ -75,6 +77,12 @@ struct CardView: View {
             withAnimation(.linear(duration: 0.8)) {
                 self.moveUpward.toggle()
             }
+        }
+        .alert(isPresented: $showAlert) {
+            Alert(title: Text(card.title),
+                  message: Text(card.message),
+                  dismissButton: .default(Text("OK"))
+            )
         }
     }
 }
