@@ -10,6 +10,8 @@
 		6F47FF362B0EDAC0001F68D0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F47FF352B0EDAC0001F68D0 /* CardView.swift */; };
 		6F47FF382B0EE262001F68D0 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F47FF372B0EE262001F68D0 /* CardModel.swift */; };
 		6F47FF3A2B0EE30C001F68D0 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F47FF392B0EE30C001F68D0 /* CardData.swift */; };
+		6F47FF3D2B0EE5CA001F68D0 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F47FF3C2B0EE5CA001F68D0 /* sound-chime.mp3 */; };
+		6F47FF3F2B0EE5F6001F68D0 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F47FF3E2B0EE5F6001F68D0 /* PlaySound.swift */; };
 		6F9506522B0E24C3005FAB04 /* LearnByDoingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9506512B0E24C3005FAB04 /* LearnByDoingApp.swift */; };
 		6F9506542B0E24C3005FAB04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9506532B0E24C3005FAB04 /* ContentView.swift */; };
 		6F9506562B0E24C5005FAB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9506552B0E24C5005FAB04 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		6F47FF352B0EDAC0001F68D0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		6F47FF372B0EE262001F68D0 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		6F47FF392B0EE30C001F68D0 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		6F47FF3C2B0EE5CA001F68D0 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		6F47FF3E2B0EE5F6001F68D0 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		6F95064E2B0E24C3005FAB04 /* LearnByDoing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnByDoing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9506512B0E24C3005FAB04 /* LearnByDoingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnByDoingApp.swift; sourceTree = "<group>"; };
 		6F9506532B0E24C3005FAB04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,10 +42,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F47FF3B2B0EE5CA001F68D0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6F47FF3C2B0EE5CA001F68D0 /* sound-chime.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		6F9506452B0E24C3005FAB04 = {
 			isa = PBXGroup;
 			children = (
-				6F47FF392B0EE30C001F68D0 /* CardData.swift */,
 				6F9506502B0E24C3005FAB04 /* LearnByDoing */,
 				6F95064F2B0E24C3005FAB04 /* Products */,
 			);
@@ -61,8 +72,11 @@
 				6F9506512B0E24C3005FAB04 /* LearnByDoingApp.swift */,
 				6F9506532B0E24C3005FAB04 /* ContentView.swift */,
 				6F47FF352B0EDAC0001F68D0 /* CardView.swift */,
+				6F47FF3E2B0EE5F6001F68D0 /* PlaySound.swift */,
 				6F47FF372B0EE262001F68D0 /* CardModel.swift */,
+				6F47FF392B0EE30C001F68D0 /* CardData.swift */,
 				6F9506552B0E24C5005FAB04 /* Assets.xcassets */,
+				6F47FF3B2B0EE5CA001F68D0 /* Sounds */,
 				6F9506572B0E24C5005FAB04 /* Preview Content */,
 			);
 			path = LearnByDoing;
@@ -135,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F9506592B0E24C5005FAB04 /* Preview Assets.xcassets in Resources */,
+				6F47FF3D2B0EE5CA001F68D0 /* sound-chime.mp3 in Resources */,
 				6F9506562B0E24C5005FAB04 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F47FF3A2B0EE30C001F68D0 /* CardData.swift in Sources */,
+				6F47FF3F2B0EE5F6001F68D0 /* PlaySound.swift in Sources */,
 				6F9506542B0E24C3005FAB04 /* ContentView.swift in Sources */,
 				6F47FF382B0EE262001F68D0 /* CardModel.swift in Sources */,
 				6F47FF362B0EDAC0001F68D0 /* CardView.swift in Sources */,
